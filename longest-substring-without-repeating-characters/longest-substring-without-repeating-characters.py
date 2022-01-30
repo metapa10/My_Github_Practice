@@ -9,6 +9,6 @@ class Solution:
                 charSet.remove(s[left_pointer])
                 left_pointer += 1
             charSet.add(s[right_pointer])
-            result = max(result, right_pointer - left_pointer +1)
+            result = max(result, right_pointer - left_pointer + 1)
             
         return result
