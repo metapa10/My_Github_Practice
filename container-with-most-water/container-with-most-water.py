@@ -1,6 +1,5 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        
         result = 0
         left_pointer, right_pointer = 0, len(height) - 1
         
@@ -14,5 +13,4 @@ class Solution:
                 right_pointer -= 1
                 
         return result
-            
-            
+    
