@@ -8,8 +8,9 @@ class Solution:
             if num // val:
                 count = num // val
                 result += (sym * count)
-                num = num % val
+                num = num % val 
             
         return result
-            
         
+
+            
